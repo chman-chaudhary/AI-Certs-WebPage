@@ -20,11 +20,11 @@ function NavLink() {
                 <hr />
             </div>
             <div className='container modText px-5 lg:hidden md:hidden flex flex-wrap gap-x-5'>
-                <div className={`bg-[rgb(207,169,53)] rounded-3xl w-fit px-3 pb-2 my-1 min-w-fit ${hoverText}`}>Prerequisite</div>
-                <div className={`bg-[rgb(207,169,53)] rounded-3xl w-fit px-3 pb-2 my-1 min-w-fit ${hoverText}`}>Exam Details</div>
-                <div className={`bg-[rgb(207,169,53)] rounded-3xl w-fit px-3 pb-2 my-1 min-w-fit ${hoverText}`}>Modules</div>
-                <div className={`bg-[rgb(207,169,53)] rounded-3xl w-fit px-3 pb-2 my-1 min-w-fit ${hoverText}`}>Skills</div>
-                <div className={`bg-[rgb(207,169,53)] rounded-3xl w-fit px-3 pb-2 my-1 min-w-fit ${hoverText}`}>Opportunities</div>
+                <div className={`bg-[rgb(207,169,53)] rounded-3xl w-fit px-3 pb-2 my-1 min-w-fit flex justify-center items-center ${hoverText}`}><a href='#prerequisite'>Prerequisite</a></div>
+                <div className={`bg-[rgb(207,169,53)] rounded-3xl w-fit px-3 pb-2 my-1 min-w-fit flex justify-center items-center ${hoverText}`}><a href='#examDetails'>Exam Details</a></div>
+                <div className={`bg-[rgb(207,169,53)] rounded-3xl w-fit px-3 pb-2 my-1 min-w-fit flex justify-center items-center ${hoverText}`}><a href='#modules'>Modules</a></div>
+                <div className={`bg-[rgb(207,169,53)] rounded-3xl w-fit px-3 pb-2 my-1 min-w-fit flex justify-center items-center ${hoverText}`}><a href='#skills'>Skills</a></div>
+                <div className={`bg-[rgb(207,169,53)] rounded-3xl w-fit px-3 pb-2 my-1 min-w-fit flex justify-center items-center ${hoverText}`}><a href='#opportunities'>Opportunities</a></div>
             </div>
         </>
     )

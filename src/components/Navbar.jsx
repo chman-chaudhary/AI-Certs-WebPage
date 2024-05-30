@@ -36,7 +36,7 @@ function Navbar() {
 
     return (
         <>
-            <div className='w-full min-h-fit text-white lg:flex md:flex items-center justify-start gap-5 z-10 mx-0 px-10 fixed bg-black'>
+            <div className='w-full min-h-24 h-fit text-white lg:flex md:flex items-center justify-start gap-5 z-10 mx-0 px-10 fixed bg-black'>
                 <div className='text-4xl flex items-center'><span className='text-[rgb(207,169,53)] font-bold'>AI</span> &nbsp;CERTs<sup className='text-xl'>TM</sup></div>
                 <div className="lg:hidden flex justify-end items-center w-full ">
                     <div className="lg:hidden fixed">
